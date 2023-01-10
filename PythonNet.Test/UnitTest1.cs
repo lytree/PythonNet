@@ -54,9 +54,6 @@ namespace PythonNet.Test
             Console.WriteLine("### numpy version:\n\t" + numpy.__version__);
 
             Console.WriteLine("\nDone. Press any key to exit.");
-#if NETFRAMEWORK
-            Console.ReadKey();
-#endif
         }
     }
 }

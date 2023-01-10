@@ -31,7 +31,7 @@ namespace Python.Included
 {
     public static class Installer
     {
-        public const string PYTHON_VERSION = "python310";
+        public static string PYTHON_VERSION = "python310";
 
         /// <summary>
         /// Path to install python. If needed, set before calling SetupPython().

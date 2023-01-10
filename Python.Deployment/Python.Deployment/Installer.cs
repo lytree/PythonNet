@@ -48,7 +48,7 @@ namespace Python.Deployment
         /// </summary>
         public static string PythonDirectoryName { get; set; } = null;
 
-        public static InstallationSource Source { get; set; } = new DownloadInstallationSource() { DownloadUrl = @"https://www.python.org/ftp/python/3.7.3/python-3.7.3-embed-amd64.zip" };
+        public static InstallationSource Source { get; set; } = new DownloadInstallationSource() { DownloadUrl = @"https://www.python.org/ftp/python/3.7.2/python-3.7.2.post1-embed-amd64.zip" };
 
         /// <summary>
         /// The full path to the Python directory. Customize this by setting InstallPath and InstallDirectory
